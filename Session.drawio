@@ -1,1 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2022-07-01T03:45:56.742Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.4" etag="4mqPEUBzO3r39BTI--mz" type="github"><diagram id="Vi_-GPIn4U5mlqOer_0O">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-01T12:04:45.486Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Timv69UfnHHv4JkU5swk" version="20.0.4" type="github">
+  <diagram id="Vi_-GPIn4U5mlqOer_0O" name="Page-1">
+    <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j-vh7UEshzy5x7hYCOGh-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;浏览器&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="110" y="120" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="j-vh7UEshzy5x7hYCOGh-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;服务器&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="490" y="120" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="j-vh7UEshzy5x7hYCOGh-8" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="230" y="150" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="j-vh7UEshzy5x7hYCOGh-9" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="j-vh7UEshzy5x7hYCOGh-12" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;发送第一次请求&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="130" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="j-vh7UEshzy5x7hYCOGh-19" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;带着Cookie发起第二次请求&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="245" y="165" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j-vh7UEshzy5x7hYCOGh-20" value="&lt;span style=&quot;text-align: left;&quot;&gt;携带JSESSIONID的Cookie，响应请求&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="245" y="290" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j-vh7UEshzy5x7hYCOGh-21" value="根据cookie中的id值&lt;br&gt;找到对应的session" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j-vh7UEshzy5x7hYCOGh-22" value="session1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-vh7UEshzy5x7hYCOGh-23" value="session2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-vh7UEshzy5x7hYCOGh-24" value="id=100" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="400" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j-vh7UEshzy5x7hYCOGh-25" value="id=101" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="570" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j-vh7UEshzy5x7hYCOGh-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;targetPerimeterSpacing=1;strokeWidth=2;exitX=0.173;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="j-vh7UEshzy5x7hYCOGh-27" target="j-vh7UEshzy5x7hYCOGh-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="420" as="sourcePoint" />
+            <mxPoint x="550" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-vh7UEshzy5x7hYCOGh-27" value="第一次请求&lt;br&gt;创建session对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="375" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j-vh7UEshzy5x7hYCOGh-29" value="" style="endArrow=none;html=1;rounded=0;fontSize=13;strokeWidth=2;exitX=0.173;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j-vh7UEshzy5x7hYCOGh-3" target="j-vh7UEshzy5x7hYCOGh-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510.76" y="321.20000000000005" as="sourcePoint" />
+            <mxPoint x="460" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-vh7UEshzy5x7hYCOGh-30" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;targetPerimeterSpacing=1;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="j-vh7UEshzy5x7hYCOGh-22" target="j-vh7UEshzy5x7hYCOGh-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="420" as="sourcePoint" />
+            <mxPoint x="550" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-vh7UEshzy5x7hYCOGh-31" value="返回id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="j-vh7UEshzy5x7hYCOGh-30">
+          <mxGeometry x="0.225" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
